@@ -9,7 +9,7 @@ const HealthForm = ({ type = "health" }) => {
     setValue,
     watch,
     reset,
-    formState: { errors },
+    formState: { errors, isSubmitting },
   } = useForm();
 
   const [age, setAge] = useState(null);
@@ -310,7 +310,8 @@ const HealthForm = ({ type = "health" }) => {
         {/* Submit Button */}
         <button
           type="submit"
-          className="bg-pink cursor-pointer text-white px-5 py-2 rounded-md hover:opacity-90 mt-4 w-full md:w-3/4 lg:w-1/2"
+          disabled={isSubmitting}
+          className="bg-pink cursor-pointer disabled:opacity-20 text-white px-5 py-2 rounded-md hover:opacity-90 mt-4 w-full md:w-3/4 lg:w-1/2"
         >
           Get Quote
         </button>
