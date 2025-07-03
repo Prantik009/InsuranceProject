@@ -1,7 +1,7 @@
 import { container, subcontainer_col } from "../assets/dummy";
 import img1 from "../assets/Hero/img1.webp";
 import img2 from "../assets/Hero/img2.webp";
-import vid1 from "../assets/Hero/vid1.mp4";
+import vid1 from "../assets/Hero/vid1.MP4";
 import GetQuote from "./GetQuote";
 
 const Hero = () => {
