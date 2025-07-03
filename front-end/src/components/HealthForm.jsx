@@ -62,7 +62,7 @@ const HealthForm = ({ type = "health" }) => {
       FillDate: formatDate(today),
     };
 
-    const url = "http://localhost:3000/proxy/health"; // Or use new Google Apps Script URL
+    const url = "https://insuranceproject-99su.onrender.com/proxy/health"; // Or use new Google Apps Script URL
 
     fetch(url, {
       method: "POST",
