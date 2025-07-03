@@ -47,7 +47,7 @@ const MotoForm = ({ formType = "car" }) => {
       FillDate: todayStr,
     };
 
-    const url = "http://localhost:3000/proxy/moto"; // Replace with your proxy or Google Apps Script URL
+    const url = "https://insuranceproject-99su.onrender.com/proxy/moto"; // Replace with your proxy or Google Apps Script URL
 
     fetch(url, {
       method: "POST",
