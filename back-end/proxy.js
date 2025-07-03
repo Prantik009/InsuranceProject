@@ -4,7 +4,7 @@ import cors from "cors"
 const app = express();
 
 app.use(cors({
-  origin: 'https://insuranceprojectfrontend.onrender.com/',
+  origin: 'https://insuranceprojectfrontend.onrender.com',
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type'],
 }));
