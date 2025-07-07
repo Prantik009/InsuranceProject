@@ -27,28 +27,29 @@ import chola from "./partner/chola.png";
 import liberty from "./partner/liberty.jpg";
 
 
-import im1 from "./feedback/im1.png";
-import im2 from "./feedback/im2.png";
-import im3 from "./feedback/im3.png";
+import im1 from "./feedback/img1.webp";
+import im2 from "./feedback/img2.webp";
+import im3 from "./feedback/img3.webp";
 
 import imp1 from "./impactImgs/imp1.png";
 import imp2 from "./impactImgs/imp2.png";
 import imp3 from "./impactImgs/imp3.png";
 import imp4 from "./impactImgs/imp4.png";
 
-import emp1 from './employee/img1.png'
+import emp1 from './employee/img1.webp'
 import emp2 from './employee/img2.png'
 import emp3 from './employee/img3.png'
 
 
 import b1 from './employee/pri.webp'
 import b2 from './employee/nik.webp'
+import b3 from "./employee/babita.webp"
 
 
 export {liberty,chola};
 
-import shield_life from "./NavHed/shield_life.gif"
-import shield_health from "./NavHed/shield_health.gif"
+// import shield_life from "./NavHed/shield_life.gif"
+// import shield_health from "./NavHed/shield_health.gif"
 
 const container =
   "bg-dark-bg backdrop-blur-md  border-none border-gray-200 font-sans mb-10";
@@ -137,7 +138,7 @@ const testi = [
     id: 1,
     img: im1,
     date: printDate(),
-    name: "Rohan Mehta",
+    name: "Balbindar Singh",
     rating: 4.5,
     smallRate: "hassle-free experience",
     content:
@@ -147,7 +148,7 @@ const testi = [
     id: 2,
     img: im2,
     date: printDate("2023-11-15"),
-    name: "Ananya Sharma",
+    name: "Rahul Kumar",
     rating: 5,
     smallRate: "Clean UI and super intuitive!",
     content:
@@ -180,20 +181,20 @@ const partners = [
   liberty
 ];
 
-const data = [
-  {
-    id: 1,
-    img: shield_health,
-    title: "Get 90 Lakh Health Cover at just ₹2K",
-    btn_title: "Health",
-  },
-  {
-    id: 2,
-    img: shield_life,
-    title: "Buy Life Insurance Now!",
-    btn_title: "Term",
-  },
-];
+// const data = [
+//   {
+//     id: 1,
+//     img: shield_health,
+//     title: "Get 90 Lakh Health Cover at just ₹2K",
+//     btn_title: "Health",
+//   },
+//   {
+//     id: 2,
+//     img: shield_life,
+//     title: "Buy Life Insurance Now!",
+//     btn_title: "Term",
+//   },
+// ];
 
 
 const impactData = [
@@ -224,14 +225,14 @@ const leadershipTeam = [
   {
     Person_img: b1,
     Person_name: "Priyanka Tomar",
-    Person_profile: "Chief Executive Officer",
+    Person_profile: "Founder and CEO",
     Person__quote:
       "Leading with vision and purpose to shape a secure tomorrow.",
   },
   {
     Person_img: b2,
     Person_name: "Nikhil Pal Singh Tomar",
-    Person_profile: "Chief Technology Officer",
+    Person_profile: "Founder and President",
     Person__quote: "Innovating today for a smarter insurance ecosystem.",
   },
   {
@@ -239,6 +240,13 @@ const leadershipTeam = [
     Person_profile: "Head of Operations",
     Person__quote: "Efficient processes are the backbone of customer trust.",
   },
+  {
+    Person_img: b3,
+    Person_name: "Babita Singh",
+    Person_profile: "Senior Insurance Consultant",
+    Person__quote: "Every policy is a promise, and I stand by it.",
+  },
+  
 ];
 
 const empployeeOfMonth = [
@@ -246,16 +254,22 @@ const empployeeOfMonth = [
     Person_img: emp1,
     Person_name: "Ms. Babita Singh",
     Person_Month: "May 2025",
+    Person_cotact: "858-798-4865",
+    Person_role: "Senior Insurance Consultant"
   },
   {
     Person_img: emp2,
     Person_name: "Ms. Manita",
     Person_Month: "April 2025",
+    Person_cotact: "858-805-6372",
+    Person_role: "Insurance Consultant"
   },
   {
     Person_img: emp3,
     Person_name: "Mr. Kunal Gautam",
     Person_Month: "April 2025",
+    Person_cotact: "758-505-4414",
+    Person_role: "Insurance Executive"
   },
 ];
 
@@ -280,4 +294,4 @@ const doData_Car = [
 
 export { container, subcontainer_col, subcontainer };
 export {bike,dog,car,life,homeIsurance,doctor};
-export { aboutDesc, benifits, partners, testi, data, impactData, leadershipTeam, empployeeOfMonth, doData, doData_Car }
+export { aboutDesc, benifits, partners, testi, impactData, leadershipTeam, empployeeOfMonth, doData, doData_Car }
