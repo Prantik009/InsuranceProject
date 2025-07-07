@@ -72,7 +72,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="flex w-full justify-between items-center mt-4 flex-col-reverse lg:flex-row gap-8 lg:gap-0">
+          <div className="flex w-full justify-around items-center mt-4 flex-col-reverse lg:flex-row gap-8 lg:gap-0">
             <p className="copyRight font-thin text-[12px] text-stone-300">
               Copyright's {currYear}{" "}
               <span className="font-semibold ">
@@ -84,7 +84,7 @@ const Footer = () => {
                 {otherlinks.map(({name, link}) => (
                   <li
                     key={name}
-                    className="md:text-[12px] font-thin text-stone-300 hover:text-stone-100 transition hover:scale-102 ease-in-out delay-100 text-[10px]"
+                    className="md:text-[12px] font-thin text-stone-300 transition-all delay-75 hover:scale-102 ease text-[10px]"
                   >
                     <Link to={link}>{name}</Link>
                   </li>
