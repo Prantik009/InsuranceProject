@@ -39,11 +39,11 @@ const Contact = () => {
                 </li>
                 <li className="flex gap-3 items-center text-stone-300 mb-6">
                   <PhoneCall className="text-pink mt-1" size={20} />
-                  <p>+91-11-88666688</p>
+                  <p>971-752-0476</p>
                 </li>
                 <li className="flex gap-3 items-center text-stone-300 mb-6">
                   <Mail className="text-pink mt-1" size={20} />
-                  <p>trueCover@Solutions.com</p>
+                  <p>multiple.insurance.assoc@gmail.com</p>
                 </li>
               </ul>
             </div>
