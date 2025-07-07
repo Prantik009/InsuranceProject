@@ -288,10 +288,13 @@ const MotoForm = ({ formType = "car" }) => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="bg-pink cursor-pointer disabled:opacity-20 text-white px-5 py-2 rounded-md hover:opacity-90 mt-4 w-full md:w-3/4 lg:w-1/2"
+          className={`px-5 py-2 rounded-md w-full md:w-3/4 lg:w-1/2 
+            ${isSubmitting ? "bg-pink opacity-50 cursor-not-allowed" : "bg-pink hover:opacity-90 cursor-pointer"} 
+            text-white transition duration-200`}
         >
-          Get Quote
+          {isSubmitting ? "Submitting..." : "Get Quote"}
         </button>
+
       </form>
     </div>
   );
