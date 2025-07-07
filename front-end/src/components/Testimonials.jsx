@@ -12,9 +12,9 @@ const Testimonials = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     speed: 500,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
     arrows: false,
     responsive: [
@@ -23,6 +23,7 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          autoplay: true,
         },
       },
       {
@@ -30,6 +31,7 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          autoplay: true,
         },
       },
       {
@@ -37,6 +39,7 @@ const Testimonials = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          autoplay: true,
         },
       },
     ],
