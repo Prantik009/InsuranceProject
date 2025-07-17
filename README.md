@@ -5,6 +5,16 @@ A responsive, frontend-focused insurance website built using **React.js** and **
 
 ---
 
+## 📸 Screenshots
+
+![Main](/front-end/public/screenshots/home.png)
+![About](/front-end/public/screenshots/about.png)
+![car](/front-end/public/screenshots/car.png)
+![life](/front-end/public/screenshots/life.png)
+
+
+---
+
 ## 🚀 How to Run the Project Locally
 
 ### Prerequisites
