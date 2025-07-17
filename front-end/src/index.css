@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+
+body{
+    background-color: var(--color-dark-bg);
+}
+
+@theme{
+    --color-dark-bg: #1f1f24;
+    --color-pink: #f45b8a;
+}
+.styles-module_chatHeader__gaeOA{
+    background-color: var(--color-pink) !important;
+}
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4 img{
+    border: none !important;
+}
+.styles-module_chatHeader__gaeOA .styles-module_avatar__afcc4:after {
+    bottom: 8px !important;
+    right: 15px !important;
+}
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH{
+    background-color: #1e1e1e;
+}
+
+.styles-module_chatBody__VBxQH .styles-module_message__Z9MOV{
+    background-color: var(--color-dark-bg) !important;
+    max-width: calc(100% - 70px) !important;
+}
+.styles-module_dark__iZs3I .styles-module_chatBody__VBxQH .styles-module_message__Z9MOV .styles-module_triangle__K9ViC {
+    border-color: transparent var(--color-dark-bg) transparent transparent !important;
+}
+.styles-module_chatFooter__TGv0P form {
+    gap: 8px;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
