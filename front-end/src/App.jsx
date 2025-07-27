@@ -25,6 +25,7 @@ const App = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <BrowserRouter>
+       <ScrollToTop /> {/* Scrolls to top on route change */}
         <Navbar />
         <div className="flex-grow">
           <Routes>
