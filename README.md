@@ -9,7 +9,7 @@ A responsive, frontend-focused insurance website built using **React.js** and **
 
 ![Main](/front-end/public/screenshots/home.png)
 ![About](/front-end/public/screenshots/about.png)
-![car](/front-end/public/screenshots/car.png)
+![car](/front-end/public/screenshots/CAR.png)
 ![life](/front-end/public/screenshots/life.png)
 
 
