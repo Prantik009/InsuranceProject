@@ -10,8 +10,8 @@ const Hero = () => {
       <div className={subcontainer_col}>
         <div className="flex justify-center items-center">
           <div className="left justify-between flex flex-col items-center md:items-start">
-            <h1 className="uppercase text-lg sm:text-3xl  md:text-6xl lg:text-7xl md:w-[100%] xl:w-[80%] font-black text-stone-200 tracking-wider">
-              Protect <span className="text-pink">what</span> matters <span className="text-pink">most.</span>
+            <h1 className="uppercase font-hero text-4xl sm:text-3xl font-black  md:text-6xl lg:text-7xl w-[100%] xl:w-[80%] text-stone-200 tracking-wider text-center sm:text-start px-4 sm:px-0">
+              Protect <span className="text-pink">what</span> matters <span className="text-pink">most</span>
             </h1>
             <div className="types w-full md:mt-8 xl:mt-12">
                 <GetQuote />

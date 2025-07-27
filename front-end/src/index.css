@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+
 
 
 body{
@@ -8,6 +10,7 @@ body{
 @theme{
     --color-dark-bg: #1f1f24;
     --color-pink: #f45b8a;
+    --font-hero: "Inter", sans-serif;
 }
 .styles-module_chatHeader__gaeOA{
     background-color: var(--color-pink) !important;
