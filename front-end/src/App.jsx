@@ -20,6 +20,7 @@ import HealthForm from "./components/HealthForm";
 import { doData, doData_Car } from "./assets/dummy";
 import MotoForm from "./components/MotoForm";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
